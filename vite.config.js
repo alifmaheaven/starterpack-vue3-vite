@@ -17,4 +17,40 @@ export default defineConfig({
     }),
     Icons({ autoInstall: true }),
   ],
+  // build: {
+  //     target: "es2020",
+  //     commonjsOptions: {
+  //         sourceMap: false
+  //     },
+  //     rollupOptions: {
+  //         // input: {
+  //         //     index: "./src/main.js"
+  //         // },
+  //         /* single
+  //         output: {
+  //             format: "umd",
+  //             strict: false,
+  //             chunkFileNames: `[name].[hash].js`,
+  //             entryFileNames: "[name].bundle.umd.js",
+  //             dir: "dist"
+  //         },
+  //         */
+  //         // array config example
+  //         // from rollup: export type InternalModuleFormat = 'amd' | 'cjs' | 'es' | 'iife' | 'system' | 'umd';
+  //         output: [
+  //             {
+  //                 format: 'cjs',
+  //                 entryFileNames: "[name].bundle.[format].js",
+  //             },
+  //             {
+  //                 format: 'es',
+  //                 entryFileNames: "[name].bundle.[format].js",
+  //             },
+  //             {
+  //                 format: 'umd',
+  //                 entryFileNames: "[name].bundle.[format].js",
+  //             },
+  //         ]
+  //     }
+  // },
 })
